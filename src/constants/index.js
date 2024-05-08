@@ -2,20 +2,24 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: "inicio",
+    title: "Inicio",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "memoria",
+    title: "Gestión de memoria",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "kernek",
+    title: "Kernel",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "comandos",
+    title: "Linea de comandos",
+  },
+  {
+    id: "archivos",
+    title: "Gestión de archivos",
   },
 ];
 
@@ -23,23 +27,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Versátil",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% Seguro",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Conectividad",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
 
@@ -73,18 +77,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
+    title: "Usuarios Activos",
     value: "3800+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
+    title: "Usado por compañias",
     value: "230+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Precio",
+    value: "$0",
   },
 ];
 

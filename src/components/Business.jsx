@@ -23,9 +23,9 @@ const Business = () => {
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-        You do the business, <br 
-        className="sm:block hidden" /> we’ll handle the money.</h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.</p>
+        Titulo, <br 
+        className="sm:block hidden" /> Lorem ipsum</h2>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam rem velit iste, tempora a nulla minima maiores commodi facere itaque ex? Distinctio quibusdam similique tempore doloremque quae, repudiandae aliquid saepe. </p>
         <Button styles="mt-10" />
       </div>
 
