@@ -10,7 +10,7 @@ const Hero = () => (
                 <p className={`${styles.paragraph} ml-2`}>
                     <span className="text-white"> M1-M3
                     </span> Martes {""}
-                    <span className="text-white"> Sistenas
+                    <span className="text-white"> Sistemas
                     </span> Operativos
                 </p>
            </div>
