@@ -6,12 +6,22 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Novedades from './Opiniones.jsx';
+import Versiones from './Versiones.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
   },
+  {
+    path: "/opiniones",
+    element: <Novedades />,
+  },
+  {
+    path: "/versiones",
+    element: <Versiones />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

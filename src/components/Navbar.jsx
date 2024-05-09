@@ -2,6 +2,7 @@ import {useState} from 'react'
 
 import { close,logo,menu } from '../assets'
 import { navLinks } from '../constants'
+import { NavLink } from 'react-router-dom'
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
   return (
@@ -13,9 +14,9 @@ const Navbar = () => {
                  key={nav.id}
                  className={`font-poppins font-normal cursor-pointer text-[16px]${ index ===navLinks.length - 1 ? 'mr-0' : 'mr-10' } text-white mr-10`}
                  >
-                    <a href={`#${nav.id}`}>
+                    <NavLink to={`/${nav.id}`}>
                         {nav.title}
-                    </a>
+                    </NavLink>
                 </li>
             ))}
         </ul>

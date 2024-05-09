@@ -21,14 +21,14 @@ const Hero = () => (
                <span className=" text-gradient"> Linux
                </span> {""}
             </h1>
-            <div className="ss:flex hidden md:mr-4 mr-0">
+            {/* <div className="ss:flex hidden md:mr-4 mr-0">
                 <GetStarted />  
-            </div>
+            </div> */}
            </div>
 
             <h1 className=" font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] ss:leading[75px] w-full">
             Un sistema versátil.</h1>
-            <p className={`${styles.paragraph} max-w-[470px] mt-5`}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad est delectus beatae eos veritatis aspernatur laborum debitis inventore tempora nisi eveniet asperiores cumque, similique distinctio sapiente labore numquam, quia quam?.</p>
+            <p className={`${styles.paragraph} max-w-[470px] mt-5 text-justify`}> Linux sirve como base para casi cualquier tipo de iniciativa de TI, lo cual incluye los contenedores, las aplicaciones desarrolladas en la nube y la seguridad. Es un elemento esencial de algunos de los sectores y las empresas más grandes del mundo, desde los sitios web para compartir información hasta los dispositivos móviles que utilizan Android</p>
         </div>
 
         <div className={`flex-1 flex ${styles.flexCenter}`}>

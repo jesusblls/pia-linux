@@ -2,25 +2,17 @@ import { people01, people02, people03, facebook, instagram, linkedin, twitter, a
 
 export const navLinks = [
   {
-    id: "inicio",
+    id: "",
     title: "Inicio",
   },
   {
-    id: "memoria",
-    title: "Gestión de memoria",
+    id: "versiones",
+    title: "Versiones",
   },
   {
-    id: "kernek",
-    title: "Kernel",
-  },
-  {
-    id: "comandos",
-    title: "Linea de comandos",
-  },
-  {
-    id: "archivos",
-    title: "Gestión de archivos",
-  },
+    id: "opiniones",
+    title: "Opiniones",
+  }
 ];
 
 export const features = [
@@ -29,21 +21,21 @@ export const features = [
     icon: star,
     title: "Versátil",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Linux puede ejecutarse sin problemas en varias plataformas. Esta compatibilidad lo convierte en una opción ideal para diferentes ecosistemas tecnológicos.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Seguro",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Dado que Linux es seguro, en comparación con otros sistemas, también es una buena opción para quienes dan prioridad a la seguridad informática.",
   },
   {
     id: "feature-3",
     icon: send,
     title: "Conectividad",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "Respecto a la flexibilidad, los servidores Linux van por delante de los servidores windows en cuanto al sistema operativo se refiere. Linux permite optimizar el uso de todos los recursos, lo cual es un punto a valorar en el entorno corporativo.",
   },
 ];
 
@@ -77,8 +69,8 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Usuarios Activos",
-    value: "3800+",
+    title: "Distribuciones Linux ",
+    value: "600 +",
   },
   {
     id: "stats-2",
@@ -94,51 +86,51 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Equipo 1",
     links: [
       {
-        name: "Content",
+        name: "Angel Marcelo Gonzalez Guajardo",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "1929214   ITS   50%",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Jesús Castillo Hernández",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "1889545  ITS    50%",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Ingeniero",
     links: [
       {
-        name: "Help Center",
+        name: "NORMA EDITH MARIN MARTINEZ",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "SISTEMAS OPERATIVOS",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "5TO SEMESTRE",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
-        name: "Blog",
+        name: "",
         link: "https://www.hoobank.com/blog/",
       },
       {
-        name: "Newsletters",
+        name: "",
         link: "https://www.hoobank.com/newsletters/",
       },
     ],
@@ -147,11 +139,11 @@ export const footerLinks = [
     title: "Partner",
     links: [
       {
-        name: "Our Partner",
+        name: "UANL",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "FIME",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
