@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Novedades from './Opiniones.jsx';
 import Versiones from './Versiones.jsx';
+import Comandos from './Comandos.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/versiones",
     element: <Versiones />,
+  },
+  {
+    path: "/comandos",
+    element: <Comandos />,
   }
 ]);
 
