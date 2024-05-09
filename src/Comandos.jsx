@@ -265,7 +265,6 @@ const Comandos = () => (
         Comandos <br />
         más utilizados en Linux
       </h1>
-      <h3 className="text-xl mb-5 text-white">Listado.</h3>
       <div className="text-center">
         <span className="inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1"></span>
         <span className="inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1"></span>
